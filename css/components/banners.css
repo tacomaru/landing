@@ -1,0 +1,38 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(221, 49, 49);
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block; /* or inline-flex */
+  transition: all 0.3s; /* Add transition effect */
+}
+
+.btn-primary:hover {
+  transform: scale(1.1); /* Add hover effect to scale the button */
+}
